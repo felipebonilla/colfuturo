@@ -1,0 +1,212 @@
+<app-header></app-header>
+<div class="container mx-10 my-16">
+  <div class="flex justify-between w-full">
+    <div>
+      <h2 class="text-2xl text-secondary-500 font-medium">
+        Extracto programa Crédito Beca
+      </h2>
+      <h6 class="text-quinary-500 text-base font-normal">
+        Corte al 7 jul 2022
+      </h6>
+    </div>
+    <div>
+      <button class="button__quaternary">PAGAR POR PSE</button>
+      <button class="button__primary">Cuenta en el exterior</button>
+      <button class="button__outline-secondary">EXTRACTO EN PDF</button>
+      <button class="button__outline-secondary">EXTRACTO EN EXCEL</button>
+    </div>
+  </div>
+  <div class="flex justify-between mt-5">
+    <div class="basis-6/12 mr-7">
+      <h4 class="text__title">
+        Resumen general <span class="mandatory">*</span>
+      </h4>
+      <hr />
+      <table class="table__summary relative">
+        <thead>
+          <tr>
+            <th rowspan="1" colspan="1"></th>
+            <th rowspan="1" colspan="1">Crédito</th>
+            <th rowspan="1" colspan="2">Beca</th>
+          </tr>
+          <tr>
+            <th></th>
+            <th>USD</th>
+            <th rowspan="1">USD</th>
+            <th rowspan="1">COP</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Desembolsos</td>
+            <td>29.743</td>
+            <td>20.000</td>
+            <td>63.261.923</td>
+          </tr>
+          <tr>
+            <td>Intereses</td>
+            <td>4.865</td>
+            <td></td>
+            <td>9.630.690</td>
+          </tr>
+          <tr>
+            <td>Seguro deudores</td>
+            <td>189</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Mora</td>
+            <td>29</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Pagos</td>
+            <td class="text-secondary-500">(1.800)</td>
+            <td></td>
+            <td class="text-secondary-500">(8.506.908)</td>
+          </tr>
+          <tr>
+            <td>Condonación estimada</td>
+            <td></td>
+            <td></td>
+            <td class="text-secondary-500">(10.698.900)</td>
+          </tr>
+          <tr>
+            <td>Apoyos entregados</td>
+            <td class="text-secondary-500">(4.519)</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>TOTAL</td>
+            <td>33.025</td>
+            <td>33.025</td>
+            <td>53.686.805</td>
+          </tr>
+        </tbody>
+        <span class="mandatory absolute top-1/3 left-full ml-2">**</span>
+      </table>
+      <p class="text__description-table ml-6">
+        <span class="mandatory mr-1">*</span>Este resumen no muestra decimales
+        pero los cálculos los consideran todos.
+      </p>
+      <p class="text__description-table ml-6">
+        <span class="mandatory mr-1">**</span>Intereses calculados con la
+        inflación.
+      </p>
+    </div>
+    <div class="basis-6/12 ml-7">
+      <h4 class="text__title">Estado Crédito</h4>
+      <hr />
+      <h6 class="mt-5 text__subtitle">Crédito <span class="text__subtitle-arrears">en mora</span></h6>
+      <table class="table__credit-status">
+        <tbody>
+          <tr>
+            <td>Días vencidos</td>
+            <td>78</td>
+          </tr>
+          <tr>
+            <td>Cuotas vencidas</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Monto en mora</td>
+            <td>USD 1.229</td>
+          </tr>
+        </tbody>
+      </table>
+      <h4 class="text__title mt-10">Próximo pago Crédito</h4>
+      <hr />
+      <table class="table__credit-pay">
+        <tbody>
+          <tr>
+            <td>Fecha próximo pago</td>
+            <td>12 dic 2022</td>
+          </tr>
+
+          <tr>
+            <td>Pago sugerido</td>
+            <td>USD 1.229</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="flex justify-between mt-7">
+    <div class="basis-6/12 mr-7">
+      <h4 class="text__title">Fechas del Crédito</h4>
+      <hr />
+      <div class="ml-6 mt-5 ">
+        <div class="mb-8 w-[45%]" >
+          <div class="flex justify-between mb-2 ">
+            <p class="text__description-credit">Inicio financiación</p>
+            <p class="text__description-date">01 sep 2018</p>
+          </div>
+          <div class="flex justify-between ">
+            <p  class="text__description-credit">Fin financiación</p>
+            <div>
+              <p class="text__description-date">21 ago 2020</p>
+              <hr />
+              <p class="text__description-date text-right">24 meses</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-between mb-8 w-[45%] ">
+          <p  class="text__description-credit">Fin de estudios</p>
+          <p class="text__description-date">29 ene 2021</p>
+        </div>
+        <div class="flex justify-between mb-2 w-[45%]">
+          <p  class="text__description-credit">Fin financiación</p>
+          <div >
+            <p class="text__description-date">21 ago 2020</p>
+
+            <p class="text__description-date">+ 72 meses</p>
+            <hr />
+          </div>
+        </div>
+        <div class="flex  mb-3 ">
+          <p  class="text__description-credit">Fecha permanencia</p>
+          <p class=" ml-16 mr-4 text__description-date ">31 ago 2026</p> <p class="text__description-credit">(Fecha máxima para cumplir permanencia)</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="basis-6/12 ml-7">
+      <h4 class="text__title">Requisitos para mantener mi estatus</h4>
+      <hr />
+      <table class="table__credit-needs">
+        <thead>
+          <tr>
+            <th rowspan="1" colspan="1">Requisito</th>
+            <th rowspan="1" colspan="1">Desde</th>
+            <th rowspan="1" colspan="1">Hasta</th>
+            <th rowspan="1" colspan="1">Estado</th>
+          </tr>
+
+        </thead>
+        <tbody>
+          <tr>
+            <td>Paz y salvo financiero de la universidad</td>
+            <td>24 feb 2021</td>
+            <td>permanente</td>
+            <td><img src="../../../../assets/icons/dashboard/check.png" width="20px" height="22px" alt="Paz y salvo financiero de la universidad" ></td>
+          </tr>
+          <tr>
+            <td>Certificado laboral</td>
+            <td>30 jun 2021</td>
+            <td>31 dic 2021</td>
+            <td><img src="../../../../assets/icons/dashboard/close.png" width="20px" height="22px" alt="Paz y salvo financiero de la universidad" ></td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <a class="underline text-color-link ml-6 mt-4 font-roboto font-normal text-sm absolute" >Requisitos para mantener mi estatus</a>
+
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
