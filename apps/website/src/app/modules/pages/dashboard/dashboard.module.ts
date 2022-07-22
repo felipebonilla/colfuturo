@@ -1,23 +1,11 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard.component';
-import { SharedModule } from 'src/app/shared';
-import {DashboardRoutingModule} from './dashboard-routing.module'
-import { HeaderComponent } from '../../components/header/header.component';
+import { DashboardRoutingModule } from './dashboard-routing.module';
 import { FooterComponent } from '../../components/footer/footer.component';
-
-
+import { HeaderComponent } from '../../components/header/header.component';
 
 @NgModule({
-  declarations: [
-    DashboardComponent,
-    HeaderComponent,
-    FooterComponent
-  ],
-  imports: [
-    SharedModule,
-    DashboardRoutingModule
-
-  ]
+  declarations: [DashboardComponent, FooterComponent, HeaderComponent],
+  imports: [DashboardRoutingModule],
 })
-export class DashboardModule { }
+export class DashboardModule {}
